@@ -1,0 +1,7 @@
+numpy>=1.24
+pandas>=2.0
+optuna>=3.0          # optimizer.py only; tests skip gracefully if absent
+pytest>=7.0          # tests
+matplotlib>=3.6      # notebooks
+notebook>=7.0        # notebooks
+nbconvert>=7.0       # headless notebook execution
